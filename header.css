@@ -1,0 +1,52 @@
+*{margin:0; padding:0;}
+ul{list-style: none;}
+a{text-decoration: none; color:inherit;}
+.clear::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+html,body{
+  font-family:'NanumSquare', sans-serif;
+  color:#595959;
+}
+nav{ 
+  width:1200px; 
+  margin:auto;
+  padding:0 10px;
+}
+header .gnb{
+  display:flex;
+  justify-content: space-between;
+}
+header .gnb ul{
+  width:900px;
+  font-weight:bold;
+  font-size:18px;
+  display:flex;
+  line-height:100px;
+  justify-content: space-around;
+  margin-left:170px;
+}
+header .logo{
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+  position:absolute;
+  z-index: 999;
+}
+header .store{
+  height:100px;
+  display:flex; 
+  align-items: center;
+}
+header .gnb ul li ul{
+  text-align: center;
+  width:120px;
+  font-size:14px;
+  position:absolute;
+  flex-direction: column;
+  z-index: 999;
+  margin:0px;
+  margin-left:-30px;
+  line-height: 30px;
+  display: none;/*내비 바*/
+}

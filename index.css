@@ -1,0 +1,262 @@
+
+#banner .mainBanner{
+  background:url(img/mainbanner.jpg) center no-repeat ;
+  height:700px;
+  position:relative;
+}
+#banner .title{
+  width:100%;
+  height:100px;
+  background-color: rgba(256,256,256,0.5);
+  position: absolute;
+  bottom:0;
+  font-weight: bold;
+  font-size:18px;
+}
+#banner .title .wrap{
+  width:1200px;
+  margin:auto;
+  position:relative;
+}
+#banner .title i{
+  font-size:40px;
+  color:#fff;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%)
+}
+#banner .title ul{
+  display:flex;
+  justify-content: space-between;
+  padding:0 90px;
+  line-height: 100px;;
+}
+#banner .title ul li:hover{
+  border-top:5px solid #fff;
+  font-weight:900;
+}
+#banner .title .wrap i:first-child{
+  left:10px;
+}
+#banner .title .wrap i:last-child{
+  right:10px;
+}
+
+#menu{
+  width:1200px;
+  margin:auto;
+  text-align: center;
+  position: relative;
+  padding-top:50px;
+  margin-bottom:500px;/**/
+}
+
+h1{
+  color:#c30e2f;
+  font-size:24px;
+}
+#menu .text{
+  position: absolute;
+  top:150px;
+}
+#menu .text ul{position: relative;}
+#menu .text li{
+  width:140px;
+  border-radius: 10px;
+  background-color:#d5e8f3;
+  line-height: 35px;
+  font-size:16px;
+  outline: 0.2px solid #fff;
+  text-align: right;
+  padding-right:20px;
+}
+#menu .text li:hover{
+  background-color: #95c3de;
+  font-weight: bold;
+  width:160px;
+}
+#menu .text .hide{
+  width:30px;
+  height:280px;
+  border-radius: 0;
+  background-color: #fff;
+  position: absolute;
+  top:0px;
+}
+#menu .image{
+  position: absolute;
+  right:30px;
+  top:160px;
+  display:flex;
+}
+#menu .image i{
+  font-size:30px;
+  transform: translateY(40%);
+}
+#menu .image ul{
+  display:flex;
+}
+#menu .image li{
+  font-size:12px;
+  text-align: center;
+  margin:15px;
+  width:160px;
+  line-height: 20px;
+}
+#menu .image p{
+  color:#c30e2f;
+  font-size:14px;
+}
+hr{
+  width:70px;
+  border: none;
+  border-bottom:3px solid #c30e2f;
+  margin:auto;
+  margin-top:30px;
+  outline: none;
+}
+
+#tip{
+  width:100%;
+  height:550px;
+  background-color: #efeddf;
+  padding:50px 0;
+}
+#tip>.wrap{
+  width:1200px;
+  margin:auto;
+  text-align: center;
+}
+#tip hr{
+  margin-bottom:50px;
+}
+#tip .image{
+  display:flex;
+  justify-content: space-around;
+}
+
+#store{
+  text-align: center;
+  position: relative;
+  padding:50px 0;
+}
+#store .wrap{
+  width:1000px;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+}
+#store .wrap>div:nth-child(1),
+#store .wrap>div:nth-child(2){
+  
+  width:480px;
+  height:200px;
+  border:5px solid #fff;
+  border-radius: 25px;
+  margin-top:50px;
+  color:#fff;
+  font-size:30px;
+  font-weight:900;
+  line-height: 50px;
+}
+#store .wrap>div:nth-child(1){
+  background:url(img/store1.png) center no-repeat;
+}
+#store .wrap>div:nth-child(2){
+  background:url(img/store2.png) center no-repeat;
+}
+#store .bg{
+  width:100%;
+  height:150px;
+  background-color:#a6cabf;
+  position: absolute;
+  z-index: -1;
+  bottom:0;
+}
+#store .wrap .top{
+  margin-top:50px;
+}
+#store input{
+  width:400px;
+  height:50px;
+  border:none;
+  background-color: rgba(256,256,256,0.7);
+  font-size: 20px;
+  text-indent: 20px;
+  outline: none;
+}
+#store label{position: relative;}
+#store label i{
+  position:absolute;
+  top:13px;
+  right:20px;
+  color:#595959;
+  cursor:pointer;
+}
+
+
+#tea{
+  text-align: center;
+  padding:50px;
+  position: relative;
+}
+#tea .wrap{
+  width:1200px;
+  height:600px;
+  margin:auto;
+  position: relative;
+  margin-top:50px;
+}
+#tea .main{
+  float:right;
+  margin-right:100px;
+}
+#tea .txt{
+  width:350px;
+  position:absolute;
+  top:100px;
+  left:100px;
+  text-align: left;
+}
+#tea h2{
+  font-size:24px;
+  margin-bottom:50px;
+}
+#tea p{
+  font-size:18px;
+}
+#tea button{
+  width:200px;
+  height:50px;
+  background-color:transparent;
+  margin-top:50px;
+  border:1px solid #c30e2f;
+  color:#c30e2f;
+  font-weight:bold;
+  font-size:18px;
+  cursor:pointer;
+}
+
+#tea .mini{
+  position:absolute;
+  bottom:0;
+  left:100px;
+}
+#tea .mini img{
+  margin-right:30px;
+}
+
+#tea #left,
+#tea #right{
+  font-size:50px;
+  position:absolute;
+  top:50%; transform: translateY(-50%);
+  cursor:pointer;
+}
+#tea #left{
+  left:0;
+  
+}
+#tea #right{
+  right:0;
+}

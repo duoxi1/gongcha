@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>new</title>
+
+    <!--ios전용 뷰포트-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--폰트어썸 CDN-->
+    <script src="https://kit.fontawesome.com/3a898955c3.js" 
+          crossorigin="anonymous"></script>
+    <style>
+      *{margin:0; padding:0;}
+ul{list-style: none;}
+a{text-decoration: none; color:inherit;}
+.clear::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+html,body{
+  font-family:'NanumSquare', sans-serif;
+  color:#595959;
+}
+nav{ 
+  width:1200px; 
+  margin:auto;
+  padding:0 10px;
+}
+header .gnb{
+  display:flex;
+  justify-content: space-between;
+}
+header .gnb ul{
+  width:900px;
+  font-weight:bold;
+  font-size:18px;
+  display:flex;
+  line-height:100px;
+  justify-content: space-around;
+  margin-left:170px;
+}
+header .logo{
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+  position:absolute;
+  z-index: 999;
+}
+header .store{
+  height:100px;
+  display:flex; 
+  align-items: center;
+}
+.sub{width:1920px; margin:auto; position: relative;}
+h1{ 
+  width:px;
+  height:20px;
+  position: absolute;
+  right:390px;
+  top:360px;
+  font-size:14px;
+  color:959595;
+  background-color: #fff;
+}
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="gnb">
+        <a href="index.html"><img class=logo src="img/logo.jpg" alt="logo"></a>
+        <ul>
+          <li><a href="#">Brand</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="sub.html">Menu</a></li>
+          <li><a href="#">Membership</a></li>
+          <li><a href="#">Benefit</a></li>
+          <li><a href="#">Event&amp;News</a></li>
+        </ul>
+        <div class="store" ><img src="img/store.jpg" alt="가맹문의"></div>
+        
+      </nav>
+    </header>
+    <div class="sub">
+      <img src="img/sub.jpg">
+      <h1><a href="sub2.html">자세히 보기</a></h1>
+    </div>
+    
+  </body>
+</html>

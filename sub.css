@@ -1,0 +1,128 @@
+#menu, #info{
+  width:1200px;
+  margin:auto;
+  position:relative;
+}
+
+#banner img{
+  width:100%;
+  min-width:1200px;
+}
+
+#menu>p:nth-child(1){
+  color:#c30e2f;
+  font-size:18px;
+  font-weight:bold;
+  float:right;
+  margin-bottom:30px;
+}
+#menu>div:nth-child(2){
+  width:230px;
+  height:30px;
+  background-color:#efeddf;
+  position: absolute;
+  right:0; top:12px;
+  z-index: -1;
+}
+#menu>ul{
+  width:1180px;
+  margin:auto;
+  display:flex;
+  flex-wrap: wrap;
+}
+#menu>ul>li{
+  width:170px;
+  height:35px;
+  background-color:#d5e8f3;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 35px;
+  margin-right: 82.5px;
+  margin-bottom:10px;
+  cursor:pointer;
+}
+#menu>ul>li:hover{
+  background-color: #95c3de;
+  font-weight: bold;
+}
+#menu>ul>li:nth-child(5){
+  margin-right:0;
+}
+#menu .option>ul>li{
+  height:40px;
+  float: left;
+}
+#menu .option>ul p{
+  float:left;
+}
+#menu .option ul{
+  float:right;
+}
+#menu .option p{
+  width:140px;
+  height:40px;
+  border:1px solid #595959;
+  text-align: center;
+  line-height: 40px;
+}
+#menu .option .focus{
+  background-color:#999
+}
+#menu .option hr{
+  height:20px;
+  border:none;
+  border-bottom:1px solid #595959;
+}
+#menu h1{
+  width:1200px;
+  height:50px;
+  background-color: #efeddf;
+  text-align:center;
+  font-size: 24px;
+  line-height: 50px;
+  margin:30px auto;
+  color:#c30e2f;
+}
+
+#info .image ul li{
+  float:left;
+}
+
+#info .wrap .title div{
+  width:10px;
+  height:40px;
+  background-color: #c30e2f;
+  transform: skewX(-25deg);
+  margin-left:10px;
+}
+#info .wrap .title hr{
+  border: 0.5px solid #c30e2f;
+}
+#info .wrap .title{
+  position: relative;
+  margin-top:20px;
+}
+#info .wrap{
+  width:1180px;
+  margin:auto;
+}
+#info .wrap .title p{
+  font-size:18px;
+  position: absolute;
+  line-height: 40px;
+  top:0;
+  text-indent: 40px;
+  color:#c30e2f;
+  font-weight: bold;
+}
+#info .wrap .image{
+  text-align: center;
+  margin:20px 0;
+}
+#info .wrap .image li>p{
+  font-size:18px;
+  margin:10px 0;
+}
+#info .wrap .image li>p:nth-child(2){
+  font-weight: bold;
+}
